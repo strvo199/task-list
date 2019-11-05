@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Task List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-content">
+                <div class="card-title">
+                    <h2>To-DO-List</h2>
+                </div>
+                <form action="#" id="list-form">
+                    <div class="input-field">
+                        <div>
+                            <label for="task"><small>New Task</small> </label>
+                        </div>
+                        
+                        <input type="text" class="form-control" name="task" id="task">
+                    </div>
+                    <div class="input-field">
+                            <input type="submit" class="btn btn-b" value="add task">
+                        </div>
+                </form>
+            
+             <!-- task -->
+             <div id="saved-task">
+                <div id="result">
+
+                
+                <div class="card-title">
+                    <h2>Task</h2>
+                    
+                </div>
+                    <div class="input-field">
+                        <div>
+                            <label for="filter"><small>Filter Task</small> </label>
+                        </div>
+                          <input type="text" class="form-control" name="filter" id="filter">
+                    </div>
+                        <ul class="collection"></ul>
+                        <input type="submit" class="btn btn-black" id="clear-btn" value="clear task">
+                </div>
+        
+          </div>
+        </div>
+        
+    </div>
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous">
+  </script>
+    <script src="app.js">
+    </script>
+</body>
+</html>
